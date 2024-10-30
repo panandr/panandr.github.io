@@ -5,11 +5,11 @@
 <script src="https://cdn.jsdelivr.net/gh/casualwriter/casual-markdown/dist/casual-markdown.js"></script>
 <style>  
   body {  margin:auto; padding:2px; max-width:1024px; display:none; FONT-FAMILY:"Segoe UI",ARIAL; }
-  h1  { font-size:200%; padding:14px; border:1px solid rgb(202, 73, 73);; BACKGROUND:#f0f0f0; color: rgb(202, 73, 73); }
-  h2  { border-bottom:1px solid rgb(202, 73, 73); padding:2px; color: rgb(202, 73, 73); }
+  h1  { font-size:200%; padding:14px; border:1px solid rgb(0, 51, 102);; BACKGROUND:#f0f0f0; color: rgb(0, 51, 102); }
+  h2  { border-bottom:1px solid rgb(51, 153, 255); padding:2px; color: rgb(0, 51, 102); }
   h3  { margin:auto; }
   ul  { margin:auto; }
-  ::marker {color: rgb(202, 73, 73);}
+  ::marker {color: rgb(0, 51, 102);}
 </style>
 <body onload="document.body.innerHTML=md.html(document.body.innerHTML); document.body.style.display='block';">
 <!--======= COPY ABOVE CODE AS HEADER, THEN FOLLOW WITH RESUME CONTENT IN MARKDOWN FORMAT =========-->
@@ -20,25 +20,35 @@
 </span>
 
 # **Andreas Pantelopoulos**
-## **Profile Summary**
+
+Software Engineer with multiple years of experience in backend development and computer networks and security. I have led teams and designed multiple distributed systems that serve high volume production traffic. I always get my hands dirty and enjoy working with fast paced and highly motivated people.
 
 ## **Experience**
 
-### **IBM – Lead Software Engineer**
-**June 2023 – Present | Athens, Greece**
-NS1 was [acquired](https://newsroom.ibm.com/IBM-Plans-to-Acquire-NS1-to-Help-Enterprises-Drive-Network-Agility-in-their-Hybrid-Cloud-Environments) by IBM in June 2023(). The transition was smooth and my role mostly remained the same.
+### **IBM – Lead Software Engineer (IBM Band 8)**
+**June 2023 – Present | Remote, Greece**
+
+NS1 was [acquired](https://newsroom.ibm.com/IBM-Plans-to-Acquire-NS1-to-Help-Enterprises-Drive-Network-Agility-in-their-Hybrid-Cloud-Environments) by IBM in June 2023. The transition was seamless, and my role largely remained unchanged. Notable achievements include:
+
+- Architected and implemented an Alerting Platform that enables customers to create multiple alerts for various events.
+- Developed the pipeline utilized by customers to ingest measurement data in our [Traffic Steering](https://www.google.com/search?q=traffic+steering+ns1+blog&sca_esv=099553b9ac5746f6&ei=XhAiZ73OJtaF9u8Pve360A4&ved=0ahUKEwi99Z-y-LWJAxXWgv0HHb22HuoQ4dUDCBA&uact=5&oq=traffic+steering+ns1+blog&gs_lp=Egxnd3Mtd2l6LXNlcnAiGXRyYWZmaWMgc3RlZXJpbmcgbnMxIGJsb2cyBRAhGKABMgUQIRigATIFECEYoAEyBRAhGKABSI8IUMkBWLYHcAF4AJABAJgBgAGgAaIEqgEDMS40uAEDyAEA-AEBmAIFoALhA8ICChAAGLADGNYEGEfCAgYQABgWGB7CAgsQABiABBiGAxiKBcICCBAAGIAEGKIEwgIEECEYFZgDAIgGAZAGApIHAzEuNKAH8hM&sclient=gws-wiz-serp) system.
+
 ---
 ### **NS1 – Lead Software Engineer**  
-**June 2020 – June 2023 | Athens, Greece**
+**June 2020 – June 2023 | Remote, Greece**
+
 Senior Engineer / Leader in the DNS team. Notable achievements : 
-- Led the engineering effort (design,arhcitecture,scoping,implementation,delivery) on multiple projects. Some of them are listed below :
- - [DNSSEC](https://community.ibm.com/community/user/aiops/blogs/nathanael-jean-francois/2023/10/03/ns1s-journey-to-dnssec) service. 
- - [Zone Version](https://www.ibm.com/docs/en/ns1-connect?topic=zones-zone-versioning-backup-restore) service.
- - [Monitoring](https://www.ibm.com/docs/en/ns1-connect?topic=monitoring-managing-ns1-jobs) service.
-- Owner of multiple critical components of our stack ensuring high availability and responding to critical incidents.
-- Collaborated with multiple teams and shareholders across the company.
-- Full product delivery : Led multiple products from initial idea, design, requirements towards successful delivery. 
-- Interviewed potential candidates and mentored multiple new team members.
+- Leading the end-to-end execution of projects, including architecture design, implementation, deployment, and monitoring. Some of them are listed below :
+    - [DNSSEC](https://community.ibm.com/community/user/aiops/blogs/nathanael-jean-francois/2023/10/03/ns1s-journey-to-dnssec) service. 
+    - [Zone Version](https://www.ibm.com/docs/en/ns1-connect?topic=zones-zone-versioning-backup-restore) service.
+    - [Monitoring](https://www.ibm.com/docs/en/ns1-connect?topic=monitoring-managing-ns1-jobs) service.
+- Responding swiftly to incidents affecting customers, delivering rapid solutions under pressure.
+- Collaborating closely with cross-functional teams—Product, Frontend, Design, and QA—to drive success across multiple initiatives.
+- Facilitating cross-team collaboration to address critical issues and ensure smooth operations.
+- Developing and writing code across the full technology stack, while also pioneering new technologies to enhance our architecture.
+- Mentoring and onboarding new team members, fostering growth and development within the team.
+- Representing NS1 at several industry conferences annually, sharing insights and building professional networks.
+ 
 ---
 ### **Cloudflare – Mid Level Software Engineer**  
 **April 2020 – December 2020 | London, United Kingdom**
@@ -52,9 +62,9 @@ NTP.
 - Acted as on-call incident responder for all the mitigation systems in production, also, responded to unmitigated attacks
 and secured Cloudflare network from live attackers.
 ---
-
 ### **Open Networking Foundation – Software Engineer**  
-**April 2020 – December 2020 | Menlo Park, California, United States**
+**April 2020 – December 2020 | San Francisco, California, United States**
+
 Worked with the Trellis Datacenter Network infrastructure team.
 - Developed and deployed software defined networking (SDN) solutions to real networks with Comcast.
 - Implemented features for the ONOS SDN controller for controlling OpenFlow Broadcom chips, tested solutions with in
@@ -62,23 +72,20 @@ house tools and deployed the solution in production networks.
 - Pushed the telecommunication industry forward introducing open source technologies in telco’s networks.
 - Managed, configured and used hardware Comcast switches for our test networks. Dove deep into hardware issues and filled multiple bugs with the Comcast team.
 ---
-
 ### **ETH Zurich - Research Software Engineer**  
 **September 2016 – January 2017 | Zurich, Switzherland**
 
----
-### **ETH Zurich - Research Software Engineer**  
-**September 2016 – January 2017 | Zurich, Switzherland**
 Research in Software Defined Networks (SDN).
 ---
 ### **Intracom Telecom - Software Engineer**  
 **September 2016 – January 2017 | Zurich, Switzherland**
+
 Part of an industry group developing for Software Defined Networks (SDN) and Network Function Virtualization area (NFV).
 - Developed features for the OpenDaylight SDN controller.
 - Implemented performance benchmarking tools for OpenDaylight.
 ---
 
-## **Skills Summary (not exhaustive)**
+## **Skills and relevant technologies (not exhaustive)**
 
 | Skill Type     | Expert                 | Proficient           | Basic Knowledge  |
 |----------------|------------------------|----------------------|------------------|
@@ -86,7 +93,8 @@ Part of an industry group developing for Software Defined Networks (SDN) and Net
 | DBMS/Queues    | Postgres, Clickhouse, Redis, Kafka, RabbitMQ, Prometheus | Mongo, LMDB, BadgerDB  | MySQL, DynamoDB, SQLite |
 | Tools          | ArgoCD, ELK Stack, LGTM Stack, Docker, Kubernetes, Grafana | Jenkins, Ansible, Vault, Terraform | Vagrant |
 | Network Protocols      | TCP/IP, BGP, DNS, TLS, HTTP/2, QUIC  | RESTCONF, WebSocket  | NETCONF |
-| Other		 | Microservices Architecture, CI/CD Pipelines, GitOps, AWS Cloud | | |  
+| Other		 | Microservices Architecture, CI/CD Pipelines, GitOps, AWS Cloud |
+
 ## **Education**
 
 ### **Master of Science in Computer Science**  
